@@ -37,6 +37,18 @@
 
 
 
+### Form İşlemleri 
+
+
+| Form Komutları | Komut Açıklamaları |
+|--|--|
+| Oluşturma | symfony console make:form ( ilişkilendirilecek entity var ise onu yazabiliriz ) |
+
+
+
+
+
+
 
 
 
