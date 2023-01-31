@@ -1,5 +1,8 @@
-- symfony server:start / projeyi ayağa kaldırma
 
+- symfony console / bütün komut listesi
+
+
+- symfony server:start / projeyi ayağa kaldırma
 
 
 
