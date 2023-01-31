@@ -5,3 +5,11 @@
 
 #### controller
 - php bin/console make:controller PostController / controller oluşturma
+
+
+
+
+
+#### entity - (model) 
+
+-  php bin/console make:entity Post 
