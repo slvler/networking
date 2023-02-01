@@ -20,13 +20,23 @@
 
 
 
+# Bundle Alanı
 
 
-
-#### Security-bundle
+#### Security-bundle - auth registir login logout olaylarını ve servis katmanını kullanabilmek için
 
 - composer require symfony/security-bundle / composer paketini yükleme
 
 - symfony console make:registration-form  / kayıt formu oluşturma
 
 - symfony symfony console make:auth / login form için 
+
+
+#### Annotations - annotations özelliğini kullanabilmek için
+- composer required annotations / composer paketini yükleme
+
+
+
+#### Maker - make komutunu kullanabilmek için
+- composer require maker
+
