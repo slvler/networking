@@ -23,6 +23,15 @@
 
 
 
+### Repository İşlemleri  ( laravel'de gömülü gelen save create update gibi crud methodlarının yazıldığı oluşturulduğu yerdir. )
+
+
+| Entity Komutları | Komut Açıklamaları |
+|--|--|
+| Oluşturma | symfony console make:entity ( isim ve sütun isimleri consoldan belirlenmektedir. ) |
+
+
+
 
 
 
