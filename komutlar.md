@@ -1,4 +1,5 @@
 
+- composer create-project symfony/skeleton proje adı / composer yardımı ile symfony projesi kurma - web yada api diye ayrılmaktadır.
 - symfony console / bütün komut listesi
 - symfony server:start / projeyi ayağa kaldırma
 
