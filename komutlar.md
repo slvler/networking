@@ -40,3 +40,7 @@
 #### Maker - make komutunu kullanabilmek için
 - composer require maker
 
+
+#### Orm - Orm mimarısını kullanabilmek için
+- composer require symfony/orm-pack
+
