@@ -17,6 +17,14 @@
 - php bin/console doctrine:migrations:migrate / migration çalıştırma
 
 
+#### Doctrine
+
+      
+        // findbyall - select * from tablo
+        // find - select * from tablo where id = 5;
+        // findby - select * from tablo order by id desc
+        // findoneBy - Select * from tablo where id = 6 and title = "title" order by id desc
+
 
 
 
@@ -43,4 +51,9 @@
 
 #### Orm - Orm mimarısını kullanabilmek için
 - composer require symfony/orm-pack
+
+
+
+#### Doctrine fixtures bundle - Seeder Factory işlemleri için
+-  composer require --dev doctrine/doctrine-fixtures-bundle
 
