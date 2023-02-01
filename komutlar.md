@@ -2,6 +2,7 @@
 - composer create-project symfony/skeleton proje adı / composer yardımı ile symfony projesi kurma - web yada api diye ayrılmaktadır.
 - symfony console / bütün komut listesi
 - symfony server:start / projeyi ayağa kaldırma
+- symfony check:requirements / symfony gerekliliklerini denetliyor
 
 #### controller
 - php bin/console make:controller PostController / controller oluşturma
