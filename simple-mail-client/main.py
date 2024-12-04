@@ -5,7 +5,7 @@ from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 
 #smpt server config
-server = smtplib.SMTP("####################", 2525)
+server = smtplib.SMTP("####################", 99999999)
 server.starttls()
 server.login("###########", "######################")
 
@@ -20,7 +20,7 @@ with open('message.txt', 'r') as f:
 
 msg.attach(MIMEText(message, 'plain'))
 
-filename = '####.png'
+filename = '####.###'
 attachment = open(filename, 'rb')
 
 p = MIMEBase('application', 'octet-stream')

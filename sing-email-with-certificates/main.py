@@ -31,7 +31,7 @@ signed_msg = sign_message(msg, KEY_FILE, CERT_FILE)
 
 text = signed_msg.as_string()
 
-with smtplib.SMTP("####################", 2525) as server:
+with smtplib.SMTP("####################", 99999999) as server:
     server.starttls()
     server.login("###########", "######################")
     server.sendmail(sender, receiver, signed_msg)
