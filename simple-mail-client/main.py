@@ -5,7 +5,7 @@ from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 
 #smpt server config
-server = smtplib.SMTP("sandbox.smtp.mailtrap.io", 2525)
+server = smtplib.SMTP("####################", 2525)
 server.starttls()
 server.login("###########", "######################")
 

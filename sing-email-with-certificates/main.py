@@ -31,9 +31,9 @@ signed_msg = sign_message(msg, KEY_FILE, CERT_FILE)
 
 text = signed_msg.as_string()
 
-with smtplib.SMTP("sandbox.smtp.mailtrap.io", 2525) as server:
+with smtplib.SMTP("####################", 2525) as server:
     server.starttls()
-    server.login("7b5df55ede20c7", "c5a331e9794473")
+    server.login("###########", "######################")
     server.sendmail(sender, receiver, signed_msg)
 
 
